@@ -1,0 +1,17 @@
+.btn {
+  width: 300px;
+  background-color: #070707;
+  color: #fff;
+  padding: 15px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: max-content;
+  gap: 10px;
+  text-decoration: none;
+  border-radius: 5px;
+
+  svg {
+    font-size: 25px;
+  }
+}

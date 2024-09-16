@@ -1,0 +1,25 @@
+.btn {
+  background: none;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: max-content;
+  gap: 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  border: 1px solid #070707;
+  padding-right: 20px;
+  color: #070707;
+  font-weight: bold;
+
+  div {
+    color: white;
+    padding: 10px 20px;
+    background-color: #070707;
+  }
+
+  svg {
+    font-size: 25px;
+  }
+}

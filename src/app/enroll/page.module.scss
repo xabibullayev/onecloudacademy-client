@@ -1,0 +1,116 @@
+.enroll {
+  background-color: #fbfbfb;
+
+  .form {
+    padding: 100px;
+    background-color: #fbfbfb;
+    display: flex;
+    gap: 25px;
+
+    .left {
+      width: 30%;
+
+      .subtitle {
+        width: max-content;
+        font-size: 20px;
+        font-weight: bold;
+        background: linear-gradient(to right, #0063f4, #00f0aa);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        color: transparent;
+        margin-bottom: 10px;
+      }
+
+      h1 {
+        font-size: 40px;
+        line-height: 1.2;
+        font-weight: bold;
+
+        b {
+          position: relative;
+          width: max-content;
+          font-size: 40px;
+          font-weight: bold;
+          background: linear-gradient(to right, #0063f4, #00f0aa);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          background-clip: text;
+          color: transparent;
+          padding-left: 20px;
+        }
+
+        img {
+          width: 120px;
+          position: absolute;
+          bottom: -3px;
+          right: 0px;
+        }
+      }
+
+      .cards {
+        margin-top: 50px;
+
+        .card {
+          display: flex;
+          align-items: center;
+          gap: 20px;
+          margin-bottom: 20px;
+
+          span {
+            background-color: #efe8f6;
+
+            padding: 20px;
+          }
+
+          div {
+            h1 {
+              font-size: 20px;
+            }
+
+            p {
+              color: #6a6a6a;
+              margin-top: 10px;
+            }
+          }
+        }
+      }
+    }
+
+    .right {
+      width: 70%;
+      background-color: #fff;
+      box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+      padding: 50px;
+      border-radius: 10px;
+
+      input,
+      select {
+        background-color: #f0f0f0;
+        padding: 20px;
+        border: none;
+        border-radius: 10px;
+        width: 100%;
+        margin-bottom: 20px;
+        outline: none;
+        font-size: 15px;
+      }
+
+      .inputGroup {
+        display: flex;
+        gap: 20px;
+      }
+
+      button {
+        background-color: #8a47cb;
+        padding: 20px 40px;
+        border-radius: 10px;
+        border: none;
+        color: white;
+        font-size: 18px;
+        margin-top: 20px;
+        cursor: pointer;
+      }
+    }
+  }
+}

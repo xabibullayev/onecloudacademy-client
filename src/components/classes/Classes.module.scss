@@ -1,0 +1,57 @@
+.classes {
+  padding: 100px;
+  background-color: #fff7fc;
+
+  .title {
+    div {
+      display: flex;
+      justify-content: center;
+
+      p {
+        position: relative;
+        width: max-content;
+        font-size: 20px;
+        font-weight: bold;
+        background: linear-gradient(to right, #0063f4, #00f0aa);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        color: transparent;
+        margin-bottom: 20px;
+        text-align: center;
+      }
+
+      h1 {
+        font-size: 45px;
+        line-height: 1.2;
+        font-weight: bold;
+
+        b {
+          position: relative;
+          width: max-content;
+          font-size: 45px;
+          font-weight: bold;
+          background: linear-gradient(to right, #0063f4, #00f0aa);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          background-clip: text;
+          color: transparent;
+          padding-left: 20px;
+        }
+
+        img {
+          position: absolute;
+          bottom: -5px;
+          right: 0px;
+        }
+      }
+    }
+  }
+
+  .img {
+    img {
+      width: 100%;
+      margin-top: 80px;
+    }
+  }
+}

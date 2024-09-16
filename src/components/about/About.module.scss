@@ -1,0 +1,148 @@
+.about {
+  padding: 100px;
+  display: flex;
+  gap: 50px;
+  background-color: #fff7fc;
+
+  .left {
+    width: 50%;
+    display: flex;
+    gap: 30px;
+
+    .first {
+      width: 45%;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      gap: 30px;
+
+      img {
+        width: 100%;
+
+        &:first-child {
+          width: 80%;
+        }
+      }
+    }
+
+    .second {
+      width: 55%;
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+
+      img {
+        margin-top: 50px;
+        width: 100%;
+      }
+
+      div {
+        background: linear-gradient(to right, #0063f4, #00f0aa);
+        color: white;
+        border-radius: 10px;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px 50px;
+
+        h1 {
+          font-weight: 1000;
+          font-size: 35px;
+        }
+
+        p {
+          font-weight: 700;
+        }
+
+        svg {
+          font-size: 50px;
+        }
+      }
+    }
+  }
+
+  .right {
+    width: 50%;
+    padding-left: 30px;
+
+    .subtitle {
+      position: relative;
+      width: max-content;
+      font-size: 20px;
+      font-weight: bold;
+      background: linear-gradient(to right, #0063f4, #00f0aa);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      color: transparent;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      font-size: 45px;
+      line-height: 1.2;
+      font-weight: bold;
+      margin-bottom: 20px;
+
+      b {
+        position: relative;
+        width: max-content;
+        font-size: 45px;
+        font-weight: bold;
+        background: linear-gradient(to right, #0063f4, #00f0aa);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        color: transparent;
+        padding-left: 20px;
+      }
+
+      img {
+        position: absolute;
+        bottom: -5px;
+        right: 0px;
+      }
+    }
+
+    h2 {
+      margin-bottom: 20px;
+    }
+
+    p {
+      line-height: 1.6;
+      color: #555555;
+      font-size: 20px;
+      margin-bottom: 20px;
+    }
+
+    .last {
+      display: flex;
+      align-items: center;
+
+      .user {
+        display: flex;
+        align-items: center;
+        margin-left: 50px;
+        gap: 20px;
+
+        img {
+          width: 60px;
+        }
+
+        span {
+          h1 {
+            margin-bottom: 5px;
+            font-size: 20px;
+            font-weight: 100;
+          }
+
+          p {
+            margin: 0;
+            font-size: 15px;
+          }
+        }
+      }
+    }
+  }
+}
