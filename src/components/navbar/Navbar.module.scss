@@ -1,5 +1,6 @@
 .navbar {
   padding: 15px 100px;
+  height: 100px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -35,35 +36,42 @@
       }
     }
   }
+
+  .menuBtn {
+    display: none;
+  }
 }
 
-.navbarScrolled {
-  padding: 15px 100px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #fff;
-  position: sticky;
-  top: 0;
-  z-index: 999;
+@media only screen and (max-width: 540px) {
+  .navbar {
+    padding: 20px;
 
-  .logo {
-    img {
-      width: 130px;
+    ul {
+      flex-direction: column;
+      background-color: red;
+      height: 0;
+      position: fixed;
+      width: 100vw;
+      top: 100px;
+      left: 0;
+      background-color: lightblue;
+      overflow: hidden;
+      transition: height 0.5s ease-in-out;
+
+      display: grid;
+      grid-template-rows: 0fr;
     }
-  }
 
-  ul {
-    list-style: none;
-    display: flex;
-    gap: 50px;
+    .activeList {
+      height: max-content;
+    }
 
-    li {
-      a {
-        text-decoration: none;
-        color: #070707;
-        font-weight: 700;
-      }
+    .enroll {
+      display: none;
+    }
+
+    .menuBtn {
+      display: block;
     }
   }
 }

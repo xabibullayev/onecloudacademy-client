@@ -11,11 +11,14 @@ export default function Team() {
       <div className={styles.left}>
         <p>Team Members</p>
 
-        <h1>Our Expert</h1>
-        <b>
-          Lecturer
-          <img src="/title-shape.png" alt="" />
-        </b>
+        <h1>
+          Our Expert
+          <b>
+            Lecturer
+            <img src="/title-shape.png" alt="" />
+          </b>
+        </h1>
+
         <span>
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum has

@@ -106,3 +106,59 @@
     }
   }
 }
+
+@media only screen and (max-width: 540px) {
+  .team {
+    padding: 20px;
+    padding-top: 50px;
+    flex-direction: column;
+
+    .left {
+      width: 100%;
+
+      p {
+        font-size: 16px;
+        margin-bottom: 15px;
+      }
+
+      h1 {
+        display: flex;
+        font-size: 30px;
+
+        b {
+          margin-left: 10px;
+          font-size: 30px;
+
+          img {
+            bottom: -3px;
+            width: 100%;
+          }
+        }
+      }
+
+      span {
+        font-size: 16px;
+        margin: 20px 0;
+      }
+    }
+
+    .right {
+      width: 100%;
+      flex-direction: column;
+
+      .card {
+        width: 100%;
+        padding: 15px;
+        gap: 15px;
+
+        h1 {
+          font-size: 18px;
+        }
+
+        p {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}

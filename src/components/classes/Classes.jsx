@@ -5,14 +5,14 @@ export default function Classes() {
     <div className={styles.classes}>
       <div className={styles.title}>
         <div>
-          <p>Most Featured Courses</p>
+          <p>Live Classes</p>
         </div>
 
         <div>
           <h1>
-            Choose Our Top
+            It's Easy To Start
             <b>
-              Courses
+              Learning
               <img src="/title-shape.png" alt="" />
             </b>
           </h1>

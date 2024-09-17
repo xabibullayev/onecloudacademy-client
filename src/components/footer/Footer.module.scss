@@ -89,3 +89,42 @@
     }
   }
 }
+
+@media only screen and (max-width: 540px) {
+  .footer {
+    margin-top: 50px;
+
+    .top {
+      flex-direction: column;
+      padding: 50px 20px;
+
+      .left {
+        width: 100%;
+        margin-bottom: 30px;
+
+        img {
+          width: 150px;
+        }
+
+        p {
+          width: 100%;
+        }
+      }
+
+      .right {
+        width: 100%;
+        margin-bottom: 30px;
+
+        h1 {
+          font-size: 20px;
+        }
+
+        ul {
+          li {
+            font-size: 16px;
+          }
+        }
+      }
+    }
+  }
+}

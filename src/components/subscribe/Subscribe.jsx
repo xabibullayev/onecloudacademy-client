@@ -16,6 +16,11 @@ export default function Subscribe() {
             <input type="text" placeholder="Write your email" />
             <MainButton title="Subscribe" type="link" icon={<MailIcon />} />
           </div>
+
+          <div className={styles.input2}>
+            <input type="text" placeholder="Write your email" />
+            <MainButton title="Subscribe" type="link" icon={<MailIcon />} />
+          </div>
         </div>
       </div>
     </div>

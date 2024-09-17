@@ -177,3 +177,94 @@
     justify-content: center;
   }
 }
+
+@media only screen and (max-width: 540px) {
+  .courses {
+    padding: 20px;
+
+    .title {
+      div {
+        p {
+          font-size: 16px;
+        }
+
+        h1 {
+          font-size: 30px;
+
+          b {
+            font-size: 30px;
+          }
+
+          img {
+            width: 90%;
+          }
+        }
+      }
+    }
+
+    .cards {
+      flex-direction: column;
+
+      .card {
+        width: 100%;
+
+        .grade {
+          padding: 15px;
+
+          p {
+            font-size: 15px;
+
+            svg {
+              font-size: 15px;
+            }
+          }
+        }
+
+        h1 {
+          width: 100%;
+          font-size: 20px;
+          margin: 15px;
+        }
+
+        .rate {
+          padding: 15px;
+          padding-top: 0;
+
+          p {
+            font-size: 15px;
+            p svg {
+              font-size: 18px;
+            }
+          }
+        }
+
+        .user {
+          padding: 0px 15px;
+
+          img {
+            width: 10%;
+          }
+
+          p {
+            font-size: 15px;
+          }
+        }
+
+        .bottom {
+          margin: 15px;
+          padding-top: 15px;
+
+          div {
+            p {
+              font-size: 15px;
+            }
+          }
+        }
+      }
+    }
+
+    .btn {
+      padding-top: 30px;
+    }
+  }
+}

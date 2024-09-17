@@ -106,3 +106,40 @@
     }
   }
 }
+
+@media only screen and (max-width: 540px) {
+  .choose {
+    padding: 20px;
+    padding-top: 50px;
+    flex-direction: column;
+    gap: 20px;
+
+    .left {
+      width: 100%;
+
+      p {
+        font-size: 16px;
+      }
+
+      h1 {
+        font-size: 30px;
+
+        b {
+          font-size: 30px;
+        }
+
+        img {
+          width: 80%;
+        }
+      }
+
+      span {
+        font-size: 16px;
+      }
+    }
+
+    .right {
+      width: 100%;
+    }
+  }
+}
