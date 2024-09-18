@@ -10,7 +10,7 @@ export default function Classes() {
 
         <div>
           <h1>
-            It's Easy To Start
+            Its Easy To Start
             <b>
               Learning
               <img src="/title-shape.png" alt="" />
