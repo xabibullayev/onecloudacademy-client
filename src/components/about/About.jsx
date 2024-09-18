@@ -2,17 +2,34 @@ import styles from "./About.module.scss";
 import SecondButton from "../elements/SecondButton/SecondButton";
 import ArrowOutwardIcon from "@mui/icons-material/ArrowOutward";
 import EastIcon from "@mui/icons-material/East";
+import Image from "next/image";
 
 export default function About() {
   return (
     <div className={styles.about}>
       <div className={styles.left}>
         <div className={styles.first}>
-          <img src="/about1.webp" alt="" />
-          <img src="/about2.webp" alt="" />
+          <Image
+            src="/about1.webp"
+            width={1000}
+            height={1000}
+            style={{ width: "80%", height: "auto" }}
+          />
+          <Image
+            src="/about2.webp"
+            width={1000}
+            height={1000}
+            style={{ width: "100%", height: "auto" }}
+          />
         </div>
         <div className={styles.second}>
-          <img src="/about3.webp" alt="" />
+          <Image
+            src="/about3.webp"
+            width={1000}
+            height={1000}
+            style={{ width: "100%", height: "auto", marginTop: "50px" }}
+          />
+
           <div>
             <span>
               <h1>10</h1>

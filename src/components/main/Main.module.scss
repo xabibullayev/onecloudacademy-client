@@ -4,6 +4,8 @@
   background-size: cover;
   display: flex;
   height: 130vh;
+  gap: 5%;
+  padding-top: 50px;
 
   .left {
     width: 40%;
@@ -58,13 +60,14 @@
   }
 
   .right {
-    width: 60%;
+    padding: 20px;
+    width: 55%;
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
 
-    img {
+    .mainImage {
       width: 80%;
     }
 

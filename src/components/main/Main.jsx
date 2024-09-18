@@ -1,3 +1,4 @@
+import Image from "next/image";
 import SecondButton from "../elements/SecondButton/SecondButton";
 import styles from "./Main.module.scss";
 import EastIcon from "@mui/icons-material/East";
@@ -25,7 +26,14 @@ export default function Main() {
       </div>
 
       <div className={styles.right}>
-        <img src="/banner1.webp" alt="" />
+        <Image
+          src="/banner1.webp"
+          width={1000}
+          height={1000}
+          style={{ width: "100%", height: "auto" }}
+          className={styles.mainImage}
+        />
+        {/* <img src="/banner1.webp" alt="" className={styles.mainImage} /> */}
 
         <div className={styles.card}>
           <div>
