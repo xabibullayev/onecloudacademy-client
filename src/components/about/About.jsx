@@ -66,7 +66,7 @@ export default function About() {
         <p>
           Innovation is the driving force of modern education. By continuously
           introducing new teaching methods, tools, and technologies, educational
-          training institutions can stimulate learners' interest, enhance
+          training institutions can stimulate learners interest, enhance
           interaction, and increase engagement in the learning process.
         </p>
 
