@@ -76,7 +76,7 @@ export default function About() {
           Practicality is key to developing skills and experience. Combining
           theory with hands-on practice helps learners apply classroom knowledge
           to real-world scenarios. This not only enhances the relevance of
-          learning but also boosts students' competitiveness in the job market.
+          learning but also boosts students competitiveness in the job market.
         </p>
 
         <div className={styles.last}>
