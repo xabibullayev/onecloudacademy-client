@@ -167,6 +167,19 @@
             color: #8a47cb;
           }
         }
+
+        a {
+          text-decoration: none;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 10px;
+          color: inherit;
+
+          &:hover {
+            color: #8a47cb;
+          }
+        }
       }
     }
   }
@@ -181,6 +194,7 @@
 @media only screen and (max-width: 540px) {
   .courses {
     padding: 20px;
+    padding-top: 50px;
 
     .title {
       div {
@@ -189,10 +203,13 @@
         }
 
         h1 {
+          width: 100%;
           font-size: 30px;
+          text-align: center;
 
           b {
             font-size: 30px;
+            padding-left: 10px;
           }
 
           img {
@@ -257,6 +274,19 @@
           div {
             p {
               font-size: 15px;
+            }
+          }
+
+          a {
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            color: inherit;
+
+            &:hover {
+              color: #8a47cb;
             }
           }
         }

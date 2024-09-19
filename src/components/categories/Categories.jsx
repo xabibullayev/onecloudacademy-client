@@ -27,39 +27,39 @@ export default function Categories() {
           <div className={styles.card}>
             <img src="/categories1.svg" alt="" />
             <h1>Web Development</h1>
-            <p>4 courses</p>
-          </div>
-
-          <div className={styles.card}>
-            <img src="/categories2.svg" alt="" />
-            <h1>Languages</h1>
             <p>2 courses</p>
           </div>
 
           <div className={styles.card}>
-            <img src="/categories3.svg" alt="" />
-            <h1>Data Science</h1>
-            <p>4 courses</p>
+            <img src="/categories2.svg" alt="" />
+            <h1>English</h1>
+            <p>3 courses</p>
+          </div>
+
+          <div className={styles.card}>
+            <img src="/categories2.svg" alt="" />
+            <h1>Chineese</h1>
+            <p>3 courses</p>
           </div>
         </div>
 
         <div className={styles.row}>
           <div className={styles.card}>
-            <img src="/categories4.svg" alt="" />
-            <h1>Software Development</h1>
-            <p>3 courses</p>
-          </div>
-
-          <div className={styles.card}>
-            <img src="/categories5.svg" alt="" />
-            <h1>Graphic Design</h1>
+            <img src="/categories3.svg" alt="" />
+            <h1>Data Science</h1>
             <p>2 courses</p>
           </div>
 
           <div className={styles.card}>
+            <img src="/categories4.svg" alt="" />
+            <h1>Mobile Applications</h1>
+            <p>1 courses</p>
+          </div>
+
+          <div className={styles.card}>
             <img src="/categories6.svg" alt="" />
-            <h1>Computer Science</h1>
-            <p>4 courses</p>
+            <h1>Management systems</h1>
+            <p>1 courses</p>
           </div>
         </div>
       </div>

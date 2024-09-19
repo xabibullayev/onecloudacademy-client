@@ -16,15 +16,15 @@ export default function Choose() {
         </h1>
 
         <span>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industrys standard dummy text ever
-          since the 1500s, when an unknown
+          Our comprehensive business chain covers education, IT development, and
+          IT services. We aim to bridge training with employment opportunities
+          and can offer job placements for some participants.
         </span>
 
         <div className={styles.progress}>
           <div className={styles.title}>
-            <h1>Learning Milestones</h1>
-            <b>90%</b>
+            <h1>Practice-Oriented Teaching</h1>
+            <b>100%</b>
           </div>
           <div className={styles.container}>
             <div className={styles.bar1}></div>
@@ -33,8 +33,8 @@ export default function Choose() {
 
         <div className={styles.progress}>
           <div className={styles.title}>
-            <h1>Learning Milestones</h1>
-            <b>92%</b>
+            <h1>Real project practise</h1>
+            <b>95%</b>
           </div>
           <div className={styles.container}>
             <div className={styles.bar2}></div>
@@ -43,7 +43,7 @@ export default function Choose() {
 
         <div className={styles.progress}>
           <div className={styles.title}>
-            <h1>Learning Milestones</h1>
+            <h1>Industry Ecosystem</h1>
             <b>95%</b>
           </div>
           <div className={styles.container}>

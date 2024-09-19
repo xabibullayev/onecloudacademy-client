@@ -21,20 +21,17 @@ export default function Testimonial() {
         </h1>
 
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, eius
-          explicabo. Architecto culpa a tempora officiis dignissimos deleniti
-          accusamus amet necessitatibus fugiat consectetur odio consequatur
-          nulla sequi doloremque aspernatur repellat ipsam obcaecati dicta
-          consequuntur ut adipisci, ad quibusdam distinctio optio. Architecto
-          tenetur ipsum culpa rerum vel doloribus! Esse, dolorem dolores.
+          In my experience all the teachers are very supportive and friendly and
+          the placement process has been very smooth throughout. I would always
+          be very grateful for the lifelong connections I made
         </p>
 
         <div className={styles.last}>
           <div className={styles.user}>
             <img src="/testimonial6.webp" alt="" />
             <span>
-              <h1>Jason S.Ellis</h1>
-              <p>CEO & Founder</p>
+              <h1>Aadhya Chaturvedi</h1>
+              <p>Student</p>
             </span>
           </div>
 

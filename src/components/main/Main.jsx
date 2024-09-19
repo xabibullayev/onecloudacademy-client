@@ -9,9 +9,9 @@ export default function Main() {
       <div className={styles.left}>
         <p>Educational center</p>
         <h1>
-          Emprove Your Future, Learn Digital
+          Open up a shining life with
           <b>
-            Skills
+            Us
             <img src="/title-shape.png" alt="" />
           </b>
         </h1>
@@ -21,7 +21,12 @@ export default function Main() {
         </span>
 
         <div className={styles.action}>
-          <SecondButton type="link" title="Enroll Now" icon={<EastIcon />} />
+          <SecondButton
+            type="link"
+            title="Enroll Now"
+            icon={<EastIcon />}
+            url="/enroll"
+          />
         </div>
       </div>
 

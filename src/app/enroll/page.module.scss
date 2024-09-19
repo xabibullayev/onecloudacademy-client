@@ -114,3 +114,31 @@
     }
   }
 }
+
+@media only screen and (max-width: 540px) {
+  .enroll {
+    .form {
+      padding: 20px;
+      padding-top: 50px;
+      flex-direction: column;
+
+      .left {
+        width: 100%;
+      }
+
+      .right {
+        box-shadow: none;
+        width: 100%;
+        padding: 15px;
+
+        .inputGroup {
+          flex-direction: column;
+        }
+
+        button {
+          width: 100%;
+        }
+      }
+    }
+  }
+}

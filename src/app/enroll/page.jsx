@@ -61,7 +61,7 @@ export default function Enroll() {
             </div>
             <div className={styles.card}>
               <span>
-                <img src="/contact1.svg" alt="" />
+                <img src="/contact2.svg" alt="" />
               </span>
               <div>
                 <h1>Call Us :</h1>
@@ -70,7 +70,7 @@ export default function Enroll() {
             </div>
             <div className={styles.card}>
               <span>
-                <img src="/contact1.svg" alt="" />
+                <img src="/contact3.svg" alt="" />
               </span>
               <div>
                 <h1>Office :</h1>

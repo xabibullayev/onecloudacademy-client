@@ -3,6 +3,7 @@ import FacebookIcon from "@mui/icons-material/Facebook";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import TelegramIcon from "@mui/icons-material/Telegram";
 import NorthIcon from "@mui/icons-material/North";
+import Link from "next/link";
 
 export default function Footer() {
   return (
@@ -11,10 +12,7 @@ export default function Footer() {
         <div className={styles.left}>
           <img src="/logo.png" alt="" />
 
-          <p>
-            Lorem ipsum amet, consectetur adipiscing elit. Suspendis varius enim
-            eros elementum tristique. Duis cursus.
-          </p>
+          <p>Open up a chining life with us.</p>
 
           <a href="">support.onecloud@gmail.com</a>
 
@@ -34,19 +32,35 @@ export default function Footer() {
           <h1>Links</h1>
 
           <ul>
-            <li>Home</li>
-            <li>About</li>
-            <li>Courses</li>
-            <li>Contact</li>
+            <li>
+              <Link href="/">Home</Link>
+            </li>
+            <li>
+              <Link href="/">About</Link>
+            </li>
+            <li>
+              <Link href="/">Courses</Link>
+            </li>
+            <li>
+              <Link href="/">Contact</Link>
+            </li>
           </ul>
         </div>
         <div className={styles.right}>
           <h1>Legal</h1>
           <ul>
-            <li>Trems of Use</li>
-            <li>Tearm & Condition</li>
-            <li>Privacy Policy</li>
-            <li>Licensencing</li>
+            <li>
+              <Link href="/">Trems of Use</Link>
+            </li>
+            <li>
+              <Link href="/">Tearm & Condition</Link>
+            </li>
+            <li>
+              <Link href="/">Privacy Policy</Link>
+            </li>
+            <li>
+              <Link href="/">Licensencing</Link>
+            </li>
           </ul>
         </div>
       </div>

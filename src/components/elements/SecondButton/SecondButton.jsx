@@ -1,10 +1,10 @@
 import Link from "next/link";
 import styles from "./SecondButton.module.scss";
 
-export default function SecondButton({ type, title, icon }) {
+export default function SecondButton({ type, title, icon, url }) {
   if (type === "link") {
     return (
-      <Link href="/" className={styles.btn}>
+      <Link href={url} className={styles.btn}>
         <div>{icon}</div>
         {title}
       </Link>

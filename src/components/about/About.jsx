@@ -51,27 +51,41 @@ export default function About() {
           </b>
         </h1>
 
+        <h2>EFFICIENCY</h2>
+
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore
+          Efficient education emphasizes the optimal use of resources and
+          maximization of time. Through scientifically planning course content,
+          optimizing teaching processes, and utilizing effective management and
+          teaching tools, learners can grasp core knowledge and skills in a
+          shorter period.
         </p>
 
-        <h2>OUR MISSION & VISION</h2>
+        <h2>INNOVATION</h2>
 
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem
-          ipsum dolor sit amet, consectetur adipiscing elit
+          Innovation is the driving force of modern education. By continuously
+          introducing new teaching methods, tools, and technologies, educational
+          training institutions can stimulate learners' interest, enhance
+          interaction, and increase engagement in the learning process.
         </p>
 
+        <h2>PRACTICALITY</h2>
+
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem
-          ipsum dolor sit amet, consectetur adipiscing elit
+          Practicality is key to developing skills and experience. Combining
+          theory with hands-on practice helps learners apply classroom knowledge
+          to real-world scenarios. This not only enhances the relevance of
+          learning but also boosts students' competitiveness in the job market.
         </p>
 
         <div className={styles.last}>
-          <SecondButton title="Learn More" type="link" icon={<EastIcon />} />
+          <SecondButton
+            title="Learn More"
+            type="link"
+            icon={<EastIcon />}
+            url="/"
+          />
           <div className={styles.user}>
             <img src="/about4.webp" alt="" />
             <span>

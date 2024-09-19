@@ -20,10 +20,16 @@ export default function Team() {
         </h1>
 
         <span>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has
+          Our team is composed of industry experts and experienced instructors
+          who not only have extensive theoretical knowledge but also practical
+          experience.
         </span>
-        <SecondButton title="Join Our Team" type="link" icon={<East />} />
+        <SecondButton
+          title="Join Our Team"
+          type="link"
+          icon={<East />}
+          url="/"
+        />
       </div>
 
       <div className={styles.right}>
@@ -44,7 +50,7 @@ export default function Team() {
           </div>
         </div>
         <div className={styles.card}>
-          <img src="/team1.webp" alt="" />
+          <img src="/team2.webp" alt="" />
           <h1>Tim R.Moyer</h1>
           <p>Lecturer</p>
           <div>

@@ -4,12 +4,29 @@ import styles from "./Navbar.module.scss";
 import MainButton from "../elements/MainButton/MainButton";
 import EastIcon from "@mui/icons-material/East";
 import MenuIcon from "@mui/icons-material/Menu";
-import { useState } from "react";
+import { useState, useRef, useEffect } from "react";
+import CloseIcon from "@mui/icons-material/Close";
 
 export default function Navbar() {
   const [sidebarActive, setSidebarActive] = useState(false);
+  const dropdownRef = useRef(null);
 
-  console.log(sidebarActive);
+  // Close dropdown when clicked outside
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
+        setSidebarActive(false);
+      }
+    };
+
+    // Add event listener
+    document.addEventListener("mousedown", handleClickOutside);
+
+    // Cleanup the event listener
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, [dropdownRef]);
 
   return (
     <div className={styles.navbar} id="home">
@@ -17,10 +34,12 @@ export default function Navbar() {
         <img src="/logo.png" alt="" />
       </div>
 
-      <ul className={sidebarActive ? styles.activeList : styles.list}>
+      <ul
+        className={sidebarActive ? styles.activeList : styles.list}
+        ref={dropdownRef}
+      >
         <li>
           <Link href="/">Home</Link>
-          <button onClick={() => setSidebarActive(false)}>X</button>
         </li>
         <li>
           <Link href="/">About</Link>
@@ -42,8 +61,18 @@ export default function Navbar() {
         />
       </div>
 
-      <div className={styles.menuBtn} onClick={() => setSidebarActive(true)}>
-        <MenuIcon />
+      <div className={styles.menu}>
+        {sidebarActive ? (
+          <CloseIcon
+            onClick={() => setSidebarActive(false)}
+            className={styles.menuBtn}
+          />
+        ) : (
+          <MenuIcon
+            className={styles.menuBtn}
+            onClick={() => setSidebarActive(true)}
+          />
+        )}
       </div>
     </div>
   );

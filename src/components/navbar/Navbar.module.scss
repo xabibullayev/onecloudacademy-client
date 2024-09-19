@@ -37,8 +37,13 @@
     }
   }
 
-  .menuBtn {
+  .menu {
     display: none;
+
+    .menuBtn {
+      color: #8a47cb;
+      font-size: 35px;
+    }
   }
 }
 
@@ -48,18 +53,24 @@
 
     ul {
       flex-direction: column;
-      background-color: red;
+      gap: 0;
       height: 0;
       position: fixed;
-      width: 100vw;
-      top: 100px;
-      left: 0;
-      background-color: lightblue;
+      width: 90vw;
+      top: 110px;
+      left: 3vw;
+      background-color: #fff;
+      box-shadow: 0 7px 13px 0 rgba(0, 0, 0, 0.1);
       overflow: hidden;
-      transition: height 0.5s ease-in-out;
-
       display: grid;
       grid-template-rows: 0fr;
+
+      li {
+        color: #070707;
+        padding: 20px;
+        height: 100%;
+        border-bottom: 1px solid #efefef;
+      }
     }
 
     .activeList {
@@ -70,7 +81,7 @@
       display: none;
     }
 
-    .menuBtn {
+    .menu {
       display: block;
     }
   }

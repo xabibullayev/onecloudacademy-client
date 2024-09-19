@@ -9,8 +9,8 @@ import Team from "@/components/team/Team";
 import Subscribe from "@/components/subscribe/Subscribe";
 import Testimonial from "@/components/testimonial/Testimonial";
 import Classes from "@/components/classes/Classes";
-import Blog from "@/components/blog/Blog";
 import Footer from "@/components/footer/Footer";
+import Contact from "@/components/contact/Contact";
 
 export default function Home() {
   return (
@@ -25,7 +25,7 @@ export default function Home() {
       <Subscribe />
       <Testimonial />
       <Classes />
-      {/* <Blog /> */}
+      <Contact />
       <Footer />
     </div>
   );

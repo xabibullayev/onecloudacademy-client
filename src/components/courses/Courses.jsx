@@ -3,6 +3,7 @@ import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
 import StarRateIcon from "@mui/icons-material/StarRate";
 import EastIcon from "@mui/icons-material/East";
 import MainButton from "../elements/MainButton/MainButton";
+import Link from "next/link";
 
 export default function Courses() {
   return (
@@ -37,7 +38,7 @@ export default function Courses() {
             </p>
           </div>
 
-          <h1>Full Stack Web Development</h1>
+          <h1>NodeJs backend development</h1>
 
           <div className={styles.rate}>
             <p>(5 ratings) </p>
@@ -52,7 +53,7 @@ export default function Courses() {
 
           <div className={styles.user}>
             <img src="/courses-user1.webp" alt="" />
-            <p>Prof. Donnie Ball</p>
+            <p>Mukhammed X.</p>
           </div>
 
           <div className={styles.bottom}>
@@ -61,10 +62,10 @@ export default function Courses() {
               <p>70+ students</p>
             </div>
 
-            <div>
+            <Link href="/enroll">
               <p>ENROLL NOW </p>
               <EastIcon />
-            </div>
+            </Link>
           </div>
         </div>
         <div className={styles.card}>
@@ -104,10 +105,10 @@ export default function Courses() {
               <p>70+ students</p>
             </div>
 
-            <div>
+            <Link href="/enroll">
               <p>ENROLL NOW </p>
               <EastIcon />
-            </div>
+            </Link>
           </div>
         </div>
         <div className={styles.card}>
@@ -123,7 +124,7 @@ export default function Courses() {
             </p>
           </div>
 
-          <h1>Python Programming for Beginners</h1>
+          <h1>HSK (Hanyu Shuiping Kaoshi)</h1>
 
           <div className={styles.rate}>
             <p>(5 ratings) </p>
@@ -147,10 +148,10 @@ export default function Courses() {
               <p>70+ students</p>
             </div>
 
-            <div>
+            <Link href="/enroll">
               <p>ENROLL NOW </p>
               <EastIcon className={styles.icon} />
-            </div>
+            </Link>
           </div>
         </div>
       </div>
