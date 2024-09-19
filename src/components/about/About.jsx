@@ -61,15 +61,6 @@ export default function About() {
           shorter period.
         </p>
 
-        <h2>INNOVATION</h2>
-
-        <p>
-          Innovation is the driving force of modern education. By continuously
-          introducing new teaching methods, tools, and technologies, educational
-          training institutions can stimulate learners interest, enhance
-          interaction, and increase engagement in the learning process.
-        </p>
-
         <h2>PRACTICALITY</h2>
 
         <p>
@@ -86,13 +77,7 @@ export default function About() {
             icon={<EastIcon />}
             url="/"
           />
-          <div className={styles.user}>
-            <img src="/about4.webp" alt="" />
-            <span>
-              <h1>Jason S.Ellis</h1>
-              <p>CEO & Founder</p>
-            </span>
-          </div>
+          <div className={styles.user}></div>
         </div>
       </div>
     </div>
